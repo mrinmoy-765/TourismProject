@@ -1,0 +1,367 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+:root{
+
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-try-color: #09272d;
+    --bs-main-color: #fff;
+    --bs-primary-color: #abbbc6;
+    --bs-supporting-color: #7e7d89;
+
+}
+/* login */
+.bg-color{
+    background-color: var(--bs-try-color);
+}
+
+
+
+.navbar{
+    margin: 0px;       /* Remove margin */
+    padding: 0px;      /* Remove padding */
+    border: none;    /* Remove border */
+  }
+
+
+  .navtext {
+    font-family: "Sofia", sans-serif;
+    word-spacing: 10px;
+    letter-spacing:2px ;
+    font-size: 250%;
+    padding: 15px;   
+    
+  }
+
+
+  .navbar-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    font-size: medium;
+    font-weight: 300;
+  }
+
+  
+
+  
+
+  .hero-section .container{
+    display: grid;
+     place-content: center; 
+    height: inherit;
+  }
+
+  .bg-main{
+    height:80vh;
+    position: relative;
+    
+  }
+
+  .hero-video{
+    
+    height: auto;
+    width: 90%;
+    border-radius: 2rem;
+  }
+
+ 
+  
+/* reg */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.heading{
+    font-size:25px;
+    font-weight:500;
+    position:relative;
+     text-align:right; 
+    padding:0 0 20px 0;
+    letter-spacing: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+  
+.container form .card-details{
+    margin-top: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .card-details .card-box{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 5px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.card-details .card-box .details{
+    display:block;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+.card-details .card-box input{
+    height:45px;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0 20px 0 5px ;
+    font-size: 16px;
+    color:#fff;
+}
+
+
+.icon{
+    position: absolute;
+    color: #fff;
+    top: 173px;
+    right:805px;
+}
+
+.icon1{
+    position: absolute;
+    color: #fff;
+    top: 173px;
+    right:140px;
+}
+.icon2{
+    position: absolute;
+    color: #fff;
+    top: 265px;
+    right:805px;
+}
+.icon3{
+    position: absolute;
+    color: #fff;
+    top: 265px;
+    right:140px;
+}
+
+.icon4{
+    position: absolute;
+    color: #fff;
+    top: 312px;
+    right:805px;
+}
+
+
+
+.icon5{
+    position: absolute;
+    color: #fff;
+    top: 312px;
+    right:140px;
+}
+
+.icon6{
+    position: absolute;
+    color: #fff;
+    top: 390px;
+    right:805px;
+}
+
+.icon7{
+    position: absolute;
+    color: #fff;
+    top: 390px;
+    right:140px;
+}
+
+
+
+
+
+
+input::placeholder{
+    color:#fff;
+}
+
+ 
+
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+    border-color: rgb(205, 87, 148);
+}
+
+form .circal-form .circal-title{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    
+}
+
+form .circal-form .category{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 115%;
+    color:#fff;
+
+}
+
+
+
+
+
+
+form .button{
+    text-align: center;
+   
+}
+
+
+
+form .button input{
+    /* padding:10px 0; */
+    /* margin-top: 10px; */
+    /* height: 100%; */
+    /* width: 50%; */
+    /* outline: none; */
+    /* color:#fff; */
+    /* border: none; */
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+    /* border-radius: 5px; */
+    /* letter-spacing: 1px; */
+    /* background: linear-gradient(135deg, #c9c9d0,  #45454c); */
+    
+
+    margin-top: 80px;
+     color: #f4f4f4;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    outline: solid;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0,0,0,.5);
+    background: transparent;
+    letter-spacing: 1.2rem;
+}
+
+.form .button submit:hover{
+    background: (-135deg,    #c9c9d0,#45454c);
+}
+
+.card-details  .error{
+    display: flex;
+    /* align-items: safe-end; */
+    margin-top: 6px;
+    color: #fe0303;
+    font-size: 15px;
+    /* margin-top: 25px; */
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  /* login error text */
+ .error{
+    color: #fe0303;
+}
+
+/* Admin Dashboard */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 60px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+ 
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 ;
+  }
+  
+  .menu li {
+    padding: 12px;
+    margin-bottom: 7px;
+    background-color: #0099cc;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
